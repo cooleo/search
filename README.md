@@ -1,3 +1,3 @@
 # search-api
 
-a [Sails](http://sailsjs.org) application
+expose search api, index api
