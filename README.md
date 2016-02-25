@@ -1,2 +1,3 @@
-# search
-search api
+# search-api
+
+a [Sails](http://sailsjs.org) application
