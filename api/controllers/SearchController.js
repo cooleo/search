@@ -9,14 +9,15 @@ var elasticsearch = require('elasticsearch');
 
  var fs = require('fs');
  var client = new elasticsearch.Client({
-   hosts: 'https://search-coole-search-3yksottitvcxgbifbjty3kpeve.ap-northeast-1.es.amazonaws.com/',
-   connectionClass: require('http-aws-es'),
-   amazonES: {
-     region: 'ap-northeast-1',
-     accessKey: 'AKIAJLCRPGM7B5ACPQEA',
-     secretKey: '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'
-   },
-   log: 'debug'
+   host:'localhost:9200',
+  /*hosts: 'https://search-coole-search-3yksottitvcxgbifbjty3kpeve.ap-northeast-1.es.amazonaws.com/',
+  connectionClass: require('http-aws-es'),
+  amazonES: {
+    region: 'ap-northeast-1',
+    accessKey: 'AKIAJLCRPGM7B5ACPQEA',
+    secretKey: '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'
+  }, */
+  log: 'trace'
  });
 
 var _index = "ocool";
